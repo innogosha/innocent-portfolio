@@ -1,8 +1,3 @@
-
-Built by https://www.blackbox.ai
-
----
-
 ```markdown
 # Innocent G. Shayo's Personal Website
 
