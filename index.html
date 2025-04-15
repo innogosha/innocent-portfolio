@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page of Innocent G. Shayo</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white text-center py-4 shadow-lg">
+      <h1 class="text-4xl font-bold">Innocent G. Shayo</h1>
+      <nav class="mt-4">
+        <a href="#personal-info" class="mx-2 hover:underline">About</a>
+        <a href="#hobbies" class="mx-2 hover:underline">Hobbies</a>
+        <a href="#links" class="mx-2 hover:underline">Links</a>
+        <a href="form.html" class="mx-2 hover:underline">Contact</a>
+      </nav>
+    </header>
+    
+    <main class="container mx-auto px-4 py-8">
+      <!-- Personal Info Section -->
+      <section id="personal-info" class="max-w-4xl mx-auto p-6 mt-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4 text-blue-700">Personal Information</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+          <div>
+            <p><span class="font-bold">Name:</span> Innocent G. Shayo</p>
+            <p><span class="font-bold">From:</span> Dar es Salaam, Tanzania</p>
+          </div>
+          <div>
+            <p><span class="font-bold">Education:</span> Open University of Tanzania</p>
+            <p><span class="font-bold">Major:</span> Information and Communication Technology</p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Hobbies Section -->
+      <section id="hobbies" class="max-w-4xl mx-auto p-6 mt-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4 text-blue-700">Hobbies & Interests</h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+          <li><i class="fas fa-laptop-code mr-2 text-blue-500"></i> Web Development</li>
+          <li><i class="fas fa-camera mr-2 text-blue-500"></i> Photography</li>
+          <li><i class="fas fa-book mr-2 text-blue-500"></i> Reading technical books</li>
+          <li><i class="fas fa-chess mr-2 text-blue-500"></i> Playing chess</li>
+          <li><i class="fas fa-music mr-2 text-blue-500"></i> Listening to music</li>
+        </ul>
+      </section>
+      
+      <!-- Favorite Links Section -->
+      <section id="links" class="max-w-4xl mx-auto p-6 mt-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4 text-blue-700">Favorite Links</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href="#personal-info" class="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-lg transition duration-300 flex items-center">
+            <i class="fas fa-user mr-2"></i> About Me
+          </a>
+          <a href="https://www.out.ac.tz" target="_blank" class="bg-green-500 hover:bg-green-600 text-white p-3 rounded-lg transition duration-300 flex items-center">
+            <i class="fas fa-university mr-2"></i> Open University Tanzania
+          </a>
+          <a href="https://ict.out.ac.tz" target="_blank" class="bg-purple-500 hover:bg-purple-600 text-white p-3 rounded-lg transition duration-300 flex items-center">
+            <i class="fas fa-laptop-code mr-2"></i> ICT Department
+          </a>
+          <a href="https://github.com" target="_blank" class="bg-gray-700 hover:bg-gray-800 text-white p-3 rounded-lg transition duration-300 flex items-center">
+            <i class="fab fa-github mr-2"></i> GitHub
+          </a>
+          <p class="text-gray-700 col-span-2">
+            I frequently visit <a href="https://stackoverflow.com" target="_blank" class="text-blue-500 hover:underline font-medium">Stack Overflow</a> to learn from other developers and contribute to the community.
+          </p>
+        </div>
+      </section>
+      
+      <!-- Table Section -->
+      <section class="max-w-4xl mx-auto p-6 mt-8 bg-white shadow-lg rounded-lg overflow-x-auto">
+        <h2 class="text-2xl font-semibold mb-4 text-blue-700">Weekly Schedule</h2>
+        <table class="w-full border-collapse">
+          <thead>
+            <tr class="bg-gray-100">
+              <th class="py-3 px-4 text-left">Day</th>
+              <th class="py-3 px-4 text-left">Morning</th>
+              <th class="py-3 px-4 text-left">Afternoon</th>
+              <th class="py-3 px-4 text-left">Evening</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b">
+              <td class="py-3 px-4 font-medium">Monday</td>
+              <td class="py-3 px-4">Classes</td>
+              <td class="py-3 px-4">Library Study</td>
+              <td class="py-3 px-4">
+                <p>Web Development</p>
+                <p class="text-sm text-gray-500">7pm-9pm</p>
+              </td>
+            </tr>
+            <tr class="border-b">
+              <td class="py-3 px-4 font-medium">Wednesday</td>
+              <td class="py-3 px-4">Group Project</td>
+              <td class="py-3 px-4">ICT Lab</td>
+              <td class="py-3 px-4">Chess Club</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-medium">Friday</td>
+              <td class="py-3 px-4">Research Work</td>
+              <td class="py-3 px-4">
+                <p>Seminar</p>
+                <p class="text-sm text-gray-500">2pm-4pm</p>
+              </td>
+              <td class="py-3 px-4">Free Time</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      
+      <!-- Dynamic Content -->
+      <div class="max-w-4xl mx-auto p-6 mt-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4 text-blue-700">Page Information</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+          <div>
+            <p><span class="font-bold">Page Location:</span> <span id="page-location" class="text-blue-500"></span></p>
+          </div>
+          <div>
+            <p><span class="font-bold">Last Modified:</span> <span id="last-modified" class="text-blue-500"></span></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Images Section -->
+      <div class="max-w-4xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-4 shadow-lg rounded-lg">
+          <img src="images/profile.jpg" alt="Profile Photo" class="w-full h-64 object-cover rounded-lg">
+          <p class="mt-2 text-center text-gray-600">My profile photo</p>
+        </div>
+        <div class="bg-white p-4 shadow-lg rounded-lg">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Coding" class="w-full h-64 object-cover rounded-lg">
+          <p class="mt-2 text-center text-gray-600">Web development passion</p>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="bg-gray-800 text-white text-center py-6 mt-12">
+      <div class="container mx-auto px-4">
+        <p>&copy; 2023 Innocent G. Shayo. All rights reserved.</p>
+        <div class="mt-4 flex justify-center space-x-4">
+          <a href="#" class="hover:text-blue-300"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="hover:text-red-400"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-blue-500"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+    
+    <script>
+      document.getElementById('page-location').textContent = window.location.href;
+      document.getElementById('last-modified').textContent = document.lastModified;
+    </script>
+</body>
+</html>

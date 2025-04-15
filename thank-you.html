@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Innocent G. Shayo</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .confirmation-container {
+            max-width: 600px;
+            margin: 4rem auto;
+            padding: 2rem;
+            text-align: center;
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .confirmation-icon {
+            font-size: 4rem;
+            color: #10B981;
+            margin-bottom: 1.5rem;
+        }
+        .btn-return {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #3B82F6;
+            color: white;
+            border-radius: 0.375rem;
+            transition: background-color 0.2s;
+        }
+        .btn-return:hover {
+            background-color: #2563EB;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white py-4 shadow-md">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <a href="index.html" class="text-xl font-bold">Innocent G. Shayo</a>
+                <a href="index.html" class="text-blue-100 hover:text-white">Back to Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="confirmation-container">
+            <div class="confirmation-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">Thank You!</h1>
+            <p class="text-lg text-gray-600 mb-2">Your message has been successfully submitted.</p>
+            <p class="text-gray-600">I will get back to you as soon as possible.</p>
+            <a href="index.html" class="btn-return">
+                <i class="fas fa-arrow-left mr-2"></i> Return to Homepage
+            </a>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; <span id="current-year"></span> Innocent G. Shayo. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-blue-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-red-400"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-blue-500"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Display current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
